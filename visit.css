@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f8ff; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+h1.title {
+    font-size: 2.5rem;
+    color: #1e90ff; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#card_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+#favorites-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    min-height: 100vh;     
+    gap: 20px;             
+}
+
+
+#favList {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+
+
+.place {
+    background-color: #ffffff;
+    border: 2px solid #87cefa; 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2); 
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: auto;
+}
+
+.place:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(30, 144, 255, 0.3);
+}
+
+
+.place-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #87cefa;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.place-name {
+    font-size: 1.5rem;
+    color: #1e90ff;
+    margin: 15px 0;
+}
+
+.place-address, .place-description, .place-rating, .place-phone {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px;
+}
+
+
+.heart-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.fa-heart {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #ff6b81; 
+}
+
+.far.fa-heart {
+    color: #dcdcdc;
+}
+
+.btn, .btn1{
+    position: relative;
+    display: inline-block;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover, .btn1:hover, .btn2:hover {
+    background-color: #87cefa;
+}
+
+.btn2 {
+    
+    background-color: #1e90ff;
+    color: white; 
+    padding: 10px 20px;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+    #card_list, #favList {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .place {
+        width: 100%; 
+    }
+}

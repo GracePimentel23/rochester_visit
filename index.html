@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="visit.css" rel="stylesheet">
+    <title>Grace's Top 10 Places to visit in Rochester</title>
+</head>
+<body>
+    <div id="display"></div>
+    <div id="card_list"></div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+
+    <script>
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js").then((registration) => {
+            console.log("Service Worker registered with scope:", registration.scope);
+          }).catch((error) => {
+            console.error("Service Worker registration failed:", error);
+          });
+        }
+      </script>
+      
+      
+      
+    <script src="json.js"></script>
+    <script src="https://kit.fontawesome.com/3929e16ef5.js" crossorigin="anonymous"></script>
+</body>
+</html>

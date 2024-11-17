@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Rochester Museum and Science Center",
+      "description": "Explore hands-on exhibits and interactive science displays.",
+      "image": "img/rochesterMuseSci.jpeg",
+      "location": "657 East Ave, Rochester, NY"
+    },
+    {
+      "id": 2,
+      "name": "Highland Park",
+      "description": "Famous for its annual Lilac Festival and beautiful landscapes.",
+      "image": "img/highland.jpeg",
+      "location": "180 Reservoir Ave, Rochester, NY"
+    },
+    {
+      "id": 3,
+      "name": "George Eastman Museum",
+      "description": "One of the oldest photography museums in the world.",
+      "image": "img/georgeEM.jpeg",
+      "location": "900 East Ave, Rochester, NY"
+    },
+    {
+      "id": 4,
+      "name": "Seabreeze Amusement Park",
+      "description": "A fun amusement park with rides and water attractions.",
+      "image": "img/seabreeze.jpeg",
+      "location": "4600 Culver Rd, Rochester, NY"
+    },
+    {
+      "id": 5,
+      "name": "Strong National Museum of Play",
+      "description": "Interactive exhibits dedicated to play and gaming history.",
+      "image": "img/play.jpeg",
+      "location": "1 Manhattan Square Dr, Rochester, NY"
+    },
+    {
+      "id": 6,
+      "name": "Seneca Park Zoo",
+      "description": "Family-friendly zoo with a variety of animals and exhibits.",
+      "image": "img/senecaZoo.jpeg",
+      "location": "2222 St Paul St, Rochester, NY"
+    },
+    {
+      "id": 7,
+      "name": "Rochester Public Market",
+      "description": "Historic marketplace with local vendors and fresh produce.",
+      "image": "img/publicMarket.jpeg",
+      "location": "280 Union St N, Rochester, NY"
+    },
+    {
+      "id": 8,
+      "name": "Charlotte-Genesee Lighthouse",
+      "description": "The oldest active lighthouse on Lake Ontario.",
+      "image": "img/lighthouse.jpeg",
+      "location": "70 Lighthouse St, Rochester, NY"
+    },
+    {
+      "id": 9,
+      "name": "ARTISANworks",
+      "description": "A unique art space filled with works from local artists.",
+      "image": "img/artisan.jpeg",
+      "location": "565 Blossom Rd # L, Rochester, NY"
+    },
+    {
+      "id": 10,
+      "name": "Maplewood Park and Rose Garden",
+      "description": "Scenic park with a beautiful rose garden and waterfalls.",
+      "image": "img/garden.jpeg",
+      "location": "24 Driving Park Ave, Rochester, NY"
+    }
+]
